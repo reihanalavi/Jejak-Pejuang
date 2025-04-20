@@ -194,6 +194,9 @@ self.C3_JsPropNameTable = [
 	{bintang: 0},
 	{fall: 0},
 	{caramain: 0},
+	{TiledBackground: 0},
+	{benar: 0},
+	{salah: 0},
 	{state_components: 0},
 	{menuComponent: 0},
 	{menu_state: 0},
@@ -265,5 +268,8 @@ self.InstanceType = {
 	bintang: class extends self.ISpriteInstance {},
 	fall: class extends self.ISpriteInstance {},
 	caramain: class extends self.ISpriteInstance {},
+	TiledBackground: class extends self.ITiledBackgroundInstance {},
+	benar: class extends self.ITiledBackgroundInstance {},
+	salah: class extends self.ITiledBackgroundInstance {},
 	menuComponent: class extends self.ISpriteInstance {}
 }
