@@ -2431,6 +2431,7 @@ self.C3_ExpressionFuncs = [
 			return () => n0.ExpObject();
 		},
 		() => "backsound",
+		() => "gameplay",
 		() => 0,
 		() => 100,
 		() => "",
@@ -2668,7 +2669,6 @@ self.C3_ExpressionFuncs = [
 		() => "male",
 		() => 90,
 		() => -999,
-		() => "gameplay",
 		() => 20,
 		() => 50,
 		() => 0.5,
